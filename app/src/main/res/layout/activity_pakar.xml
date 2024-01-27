@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spalsh"
+android:orientation="vertical"
+    tools:context=".pakar">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="487dp"
+        android:src="@drawable/pegacara" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+
+        android:layout_marginTop="340dp"
+
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/bg_input_edit"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="-99dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/mregular"
+            android:gravity="center"
+            android:text="NAMA   : RAHMAD AJI"
+            android:textColor="@color/white"
+
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="0dp"
+
+            android:fontFamily="@font/mregular"
+            android:gravity="center"
+            android:text="ALAMAT :JL.JEND.SUDIRMAN"
+            android:textColor="@color/white"
+
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="0dp"
+
+            android:fontFamily="@font/mregular"
+            android:gravity="center"
+            android:text="PROFESI : Advokat/ pegacara"
+            android:textColor="@color/white"
+
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

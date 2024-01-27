@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spalsh"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/spalsh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="161dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/mregular"
+        android:text="@string/my_dashboard"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+
+    <ViewFlipper
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="240dp"
+
+
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="30dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#EDEDED" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <Button
+                    android:id="@+id/btn_diagnosa_cf"
+                    android:layout_width="162dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_layout_white"
+                    android:fontFamily="@font/mregular"
+                    android:text="@string/diagnosa"
+                    android:textColor="@color/blackPrimary"
+
+                    app:backgroundTint="@color/white" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <Button
+                    android:id="@+id/btn_riwayat"
+                    android:layout_width="162dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_layout_white"
+                    android:fontFamily="@font/mregular"
+                    android:text="@string/riwayat_diagnosa"
+                    android:textColor="@color/black"
+                    app:backgroundTint="@color/bgPrimary" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btn_penyakit"
+                    android:layout_width="162dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_layout_white"
+                    android:fontFamily="@font/mregular"
+                    android:text="@string/daftarpasal"
+                    android:textColor="@color/blackPrimary"
+
+                    app:backgroundTint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <Button
+                    android:id="@+id/btn_tentang"
+                    android:layout_width="162dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_layout_white"
+                    android:fontFamily="@font/mregular"
+                    android:text="@string/tentang"
+                    android:textColor="@color/blackPrimary"
+
+                    app:backgroundTint="@color/white" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="162dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_layout_white"
+            android:fontFamily="@font/mregular"
+            android:text="@string/logout"
+            android:textColor="@color/blackPrimary"
+
+            app:backgroundTint="@color/white" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+

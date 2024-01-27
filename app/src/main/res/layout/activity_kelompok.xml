@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/spalsh"
+    tools:context=".kelompok">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/bg_input_satu"
+            android:fontFamily="@font/mmedium"
+            android:text="KELOMPOK 12"
+
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:backgroundTint="@color/red_700"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/maya"/>
+        <TextView
+
+            android:layout_width="166dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="-390dp"
+            android:layout_marginTop="250dp"
+
+            android:background="@drawable/bg_input_satu"
+            android:fontFamily="@font/mmedium"
+            android:text="202155202077"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:backgroundTint="@color/red_700"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginLeft="-170dp"
+            android:layout_marginTop="210dp"
+
+            android:fontFamily="@font/mmedium"
+            android:text="Maya Nurlati Kelian"
+
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:backgroundTint="@color/red_700"
+            />
+    </LinearLayout>
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-300dp"
+    android:layout_marginTop="470dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/bibil"/>
+    <TextView
+
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="-390dp"
+        android:layout_marginTop="170dp"
+
+        android:background="@drawable/bg_input_satu"
+        android:fontFamily="@font/mmedium"
+        android:text="202155202008"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:backgroundTint="@color/red_700"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginLeft="-190dp"
+        android:layout_marginTop="130dp"
+
+        android:fontFamily="@font/mmedium"
+        android:text="Nabila Ashari Amsari"
+
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:backgroundTint="@color/red_700"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="270dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="499dp"
+            android:src="@drawable/ilham"/>
+        <TextView
+
+            android:layout_width="166dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="250dp"
+
+            android:background="@drawable/bg_input_satu"
+            android:fontFamily="@font/mmedium"
+            android:text="202155202055"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:backgroundTint="@color/red_700"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="200dp"
+
+            android:fontFamily="@font/mmedium"
+            android:text="ILHAM S"
+
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:backgroundTint="@color/red_700"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

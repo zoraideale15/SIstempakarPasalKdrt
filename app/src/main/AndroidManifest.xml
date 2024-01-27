@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SIstempakarPasalKdrt"
+
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        tools:replace="android:appComponentFactory"
+        tools:ignore="HardcodedDebugMode,UnusedAttribute">
+        <activity
+            android:name=".pakar"
+            android:parentActivityName=".Tentang" />
+        <activity
+            android:name=".kelompok"
+            android:parentActivityName=".Tentang" />
+        <activity
+            android:name=".Tentang"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiagnosaCfHasilActivity"
+            android:parentActivityName=".DiagnosaCfActivity"
+            android:theme="@style/DiagnosaCfHasilTheme" />
+        <activity
+            android:name=".PasalDetailActivity"
+            android:parentActivityName=".PasalActivity" />
+        <activity
+            android:name=".PasalActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RiwayatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiagnosaCfActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DaftarActivity"
+            android:theme="@style/DaftarTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
